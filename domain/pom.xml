@@ -10,11 +10,6 @@
     </parent>
 
     <artifactId>domain</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>listing</module>
-        <module>shared</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

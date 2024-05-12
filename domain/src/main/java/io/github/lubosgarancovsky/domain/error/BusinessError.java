@@ -1,6 +1,5 @@
 package io.github.lubosgarancovsky.domain.error;
 
-import error.ImmutableBusinessError;
 import org.immutables.value.Value;
 
 import java.util.Arrays;

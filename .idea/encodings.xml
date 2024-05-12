@@ -19,8 +19,18 @@
     <file url="file://$PROJECT_DIR$/adapter1/rest-api/api-dto/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adapter1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adapter1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain-old/listing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain-old/listing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain-old/shared/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain-old/shared/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain-old/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain-old/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain/listing-old/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain/listing-old/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domain/listing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domain/listing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain/shared-old/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/domain/shared-old/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domain/shared/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domain/shared/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domain/src/main/java" charset="UTF-8" />
