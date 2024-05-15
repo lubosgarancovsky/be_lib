@@ -5,24 +5,40 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.lubosgarancovsky</groupId>
-        <artifactId>adapter</artifactId>
+        <artifactId>lubosgarancovsky_be_lib</artifactId>
         <version>1.0.0</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>api-dto</artifactId>
+    <artifactId>rest-spring</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
+            <groupId>io.github.lubosgarancovsky</groupId>
+            <artifactId>domain</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>6.1.6</version>
+        </dependency>
+        <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
+            <artifactId>jackson-core</artifactId>
             <version>2.17.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.lubosgarancovsky</groupId>
+            <artifactId>api-dto</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

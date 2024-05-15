@@ -2,15 +2,24 @@ package io.github.lubosgarancovsky.restapi.dto;
 
 import org.immutables.value.Value;
 
+import java.util.Collection;
 import java.util.List;
+import java.util.Optional;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
+@JsonDeserialize(as = ImmutableErrorDetailResponse.class)
+@JsonSerialize(as = ImmutableErrorDetailResponse.class)
 @Value.Immutable
 @Value.Style(stagedBuilder = true)
 public interface ErrorDetailResponse {
 
-    String faultCode();
+    String correlationId();
 
-    String faultMessage();
+    List<ErrorDetailResponseItem> fault();
 
-    List<String> faultMessageParams();
+    default Optional<ErrorDetailResponseItem> primaryFault() {
+        return Optional.ofNullable(fault()).stream().flatMap(Collection::stream).findFirst();
+    }
 }

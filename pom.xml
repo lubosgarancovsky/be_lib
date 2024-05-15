@@ -22,6 +22,7 @@
         <module>domain</module>
         <module>domain/listing</module>
         <module>domain/shared</module>
+        <module>adapter/rest-api/rest-spring</module>
     </modules>
 
     <dependencies>
