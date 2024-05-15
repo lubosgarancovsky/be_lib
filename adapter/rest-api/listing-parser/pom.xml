@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.github.lubosgarancovsky</groupId>
         <artifactId>adapter</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>io.github.lubosgarancovsky</groupId>
             <artifactId>domain</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -32,13 +32,13 @@
         <dependency>
             <groupId>io.github.lubosgarancovsky</groupId>
             <artifactId>listing</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.github.lubosgarancovsky</groupId>
             <artifactId>shared</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
