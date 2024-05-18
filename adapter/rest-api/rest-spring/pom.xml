@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.github.lubosgarancovsky</groupId>
         <artifactId>lubosgarancovsky_be_lib</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
         <relativePath>../../../pom.xml</relativePath>
     </parent>
 
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>io.github.lubosgarancovsky</groupId>
             <artifactId>domain</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -37,8 +37,13 @@
         <dependency>
             <groupId>io.github.lubosgarancovsky</groupId>
             <artifactId>api-dto</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+            <version>3.2.5</version>
         </dependency>
     </dependencies>
 

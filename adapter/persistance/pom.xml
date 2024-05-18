@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.github.lubosgarancovsky</groupId>
         <artifactId>adapter</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
 
     <artifactId>persistance</artifactId>
@@ -16,5 +16,13 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jooq</groupId>
+            <artifactId>jooq</artifactId>
+            <version>3.19.8</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -5,7 +5,7 @@ import io.github.lubosgarancovsky.domain.error.NestedBusinessError;
 import io.github.lubosgarancovsky.restapi.dto.ErrorDetailResponse;
 import io.github.lubosgarancovsky.restapi.dto.ImmutableErrorDetailResponse;
 import io.github.lubosgarancovsky.restapi.dto.ErrorDetailResponseItem;
-import io.github.lubosgarancovsky.restapi.dto.listing.ImmutableErrorDetailResponseItem;
+import io.github.lubosgarancovsky.restapi.dto.ImmutableErrorDetailResponseItem;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

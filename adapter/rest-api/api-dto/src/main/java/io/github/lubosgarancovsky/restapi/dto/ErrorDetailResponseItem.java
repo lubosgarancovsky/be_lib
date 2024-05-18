@@ -2,7 +2,6 @@ package io.github.lubosgarancovsky.restapi.dto;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import io.github.lubosgarancovsky.restapi.dto.listing.ImmutableErrorDetailResponseItem;
 import org.immutables.value.Value;
 
 import java.util.List;

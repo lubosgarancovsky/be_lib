@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.github.lubosgarancovsky</groupId>
         <artifactId>lubosgarancovsky_be_lib</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>io.github.lubosgarancovsky</groupId>
             <artifactId>shared</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
